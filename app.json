@@ -4,11 +4,11 @@
     "slug": "UASDApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./img/icono.png", 
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./img/splash-icon.png", 
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -17,12 +17,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./img/icono.png", 
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.daniellp08.UASDApp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./img/icono.png" 
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e47c87b9-0e74-4214-b2b8-f989dc502c50"
+      }
     }
   }
 }
